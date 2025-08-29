@@ -1,7 +1,7 @@
 # TaxiFlow
 ---
 
-In this project, I aimed to build a data engineering and machine learning workflow which processes and cleans data to be used as training data by an XGBoost regression model. MLFlow is used as well for model tracking and hyperparameter tuning. The final model would be deployed to an ECS cluster on AWS
+In this project, I aimed to build a data engineering and machine learning workflow which processes and cleans data to be used as training data by an XGBoost regression model. MLFlow is used as well for model tracking and hyperparameter tuning. The final model would be deployed to an ECS cluster on AWS.
 
 </br></br>
 ### High Level Architecture
@@ -17,3 +17,4 @@ This is done through a multi-cloud approach where Azure is used for preparing an
 ---
 
 This project served to offer experience working with the machine learning capabilities of Databricks through MLFlow and the pyspark.ml library.
+
