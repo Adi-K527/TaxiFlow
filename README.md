@@ -13,8 +13,9 @@ In this project, I aimed to build a data engineering and machine learning workfl
 This is done through a multi-cloud approach where Azure is used for preparing and storing the data using Azure Databricks along with Azure Data Lake Store. The data first passes through a medallion architecture implemented in ETL.ipynb, and the final gold layer data gets used as the training data for the XGBoost model, with all model runs being tracked with MLFLow. Finally, AWS is used for model deployment.
 
 </br></br>
-### High Level Architecture
+### Conclusion
 ---
 
 This project served to offer experience working with the machine learning capabilities of Databricks through MLFlow and the pyspark.ml library.
+
 
